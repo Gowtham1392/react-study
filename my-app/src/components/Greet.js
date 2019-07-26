@@ -1,10 +1,13 @@
 import React from "react";
 
 class Greet extends React.Component {
-  render() {
+  render(props) {
+    props.name = "Hi";
     return (
       <div>
-        <h1>Hello World</h1>
+        <h1>
+          Hello {this.props.name},{this.props.id}
+        </h1>
       </div>
     );
   }
