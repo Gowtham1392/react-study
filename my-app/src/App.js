@@ -6,6 +6,7 @@ import Message from "./components/Message";
 import Count from "./components/Count";
 import Parent from "./components/Parent";
 import ListsAndKeys from "./components/ListsAndKeys";
+import Forms from "./components/Forms";
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
       <Message /> */}
       {/* <Count /> */}
       {/* <Parent /> */}
-      <ListsAndKeys />
+      {/* <ListsAndKeys /> */}
+      <Forms />
     </div>
   );
 }
