@@ -8,6 +8,7 @@ import Parent from "./components/Parent";
 import ListsAndKeys from "./components/ListsAndKeys";
 import Forms from "./components/Forms";
 import RefDemo from "./components/RefDemo";
+import RefParent from "./components/RefParent";
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
       {/* <Parent /> */}
       {/* <ListsAndKeys /> */}
       {/* <Forms /> */}
-      <RefDemo />
+      {/* <RefDemo /> */}
+      <RefParent />
     </div>
   );
 }
