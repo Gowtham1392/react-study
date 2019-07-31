@@ -7,6 +7,7 @@ import Count from "./components/Count";
 import Parent from "./components/Parent";
 import ListsAndKeys from "./components/ListsAndKeys";
 import Forms from "./components/Forms";
+import RefDemo from "./components/RefDemo";
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
       {/* <Count /> */}
       {/* <Parent /> */}
       {/* <ListsAndKeys /> */}
-      <Forms />
+      {/* <Forms /> */}
+      <RefDemo />
     </div>
   );
 }
