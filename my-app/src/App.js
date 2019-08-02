@@ -9,6 +9,8 @@ import ListsAndKeys from "./components/ListsAndKeys";
 import Forms from "./components/Forms";
 import RefDemo from "./components/RefDemo";
 import RefParent from "./components/RefParent";
+import ClickCount from "./components/ClickCount";
+import HoverCount from "./components/HoverCount";
 
 function App() {
   return (
@@ -20,7 +22,9 @@ function App() {
       {/* <ListsAndKeys /> */}
       {/* <Forms /> */}
       {/* <RefDemo /> */}
-      <RefParent />
+      {/* <RefParent /> */}
+      <ClickCount />
+      <HoverCount />
     </div>
   );
 }
