@@ -11,6 +11,8 @@ import RefDemo from "./components/RefDemo";
 import RefParent from "./components/RefParent";
 import ClickCount from "./components/ClickCount";
 import HoverCount from "./components/HoverCount";
+import ComponentA from "./components/ComponentA";
+import { UserProvider } from "./components/UserContext";
 
 function App() {
   return (
@@ -23,8 +25,11 @@ function App() {
       {/* <Forms /> */}
       {/* <RefDemo /> */}
       {/* <RefParent /> */}
-      <ClickCount />
-      <HoverCount />
+      {/* <ClickCount />
+      <HoverCount /> */}
+      <UserProvider value="Gowtham">
+        <ComponentA />
+      </UserProvider>
     </div>
   );
 }
