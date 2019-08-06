@@ -14,6 +14,7 @@ import HoverCount from "./components/HoverCount";
 import ComponentA from "./components/ComponentA";
 import { UserProvider } from "./components/UserContext";
 import HTTPGet from "./components/HTTPGet";
+import PostForm from "./components/PostForms";
 
 function App() {
   return (
@@ -31,7 +32,8 @@ function App() {
       {/* <UserProvider value="Gowtham">
         <ComponentA />
       </UserProvider> */}
-      <HTTPGet />
+      {/* <HTTPGet /> */}
+      <PostForm />
     </div>
   );
 }
